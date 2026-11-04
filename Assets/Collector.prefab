@@ -1,0 +1,122 @@
+{
+  "RootObject": {
+    "__guid": "40456841-eb85-4045-899c-235b4a3c16d6",
+    "__version": 2,
+    "Flags": 0,
+    "Name": "Collector",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "Collector",
+        "__guid": "1099662c-6e92-4400-8ee5-e282ea7a313d",
+        "__enabled": true,
+        "Flags": 0,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Wallet": {
+          "_type": "component",
+          "component_id": "7b665990-ca20-459e-b6de-1151ae2ae617",
+          "go": "fde76e17-1db9-4ccc-a193-897fddbc6239",
+          "component_type": "Wallet"
+        }
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "8448d3fa-a195-41d6-8e31-1b781ebe161a",
+        "__enabled": true,
+        "Flags": 0,
+        "Center": "-9.74579811,2.76952457,-7.13314438",
+        "ColliderFlags": 0,
+        "Elasticity": null,
+        "Friction": null,
+        "IsTrigger": true,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "RollingResistance": null,
+        "Scale": "25.6396332,25.3709221,2.2453537",
+        "Static": false,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0"
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "0227738c-b491-465b-9ff7-7d280f95c742",
+        "__version": 2,
+        "Flags": 0,
+        "Name": "Cube",
+        "Position": "-9.76794434,2.89840698,-7.30036449",
+        "Rotation": "0,0,0,1",
+        "Scale": "0.5,0.5,0.0320006087",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkFlags": 0,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "35af0e30-cbe1-4b6e-a8d4-3d12339a605f",
+            "__enabled": true,
+            "Flags": 0,
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "LodOverride": null,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Materials": null,
+            "Model": {
+              "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+              "Path": "models/dev/box.vmdl"
+            },
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          }
+        ],
+        "Children": []
+      }
+    ]
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}
