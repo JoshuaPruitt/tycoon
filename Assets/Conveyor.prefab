@@ -1,0 +1,295 @@
+{
+  "RootObject": {
+    "__guid": "79cfb077-e0f3-41af-9b97-12b217bd4d69",
+    "__version": 2,
+    "Flags": 0,
+    "Name": "Conveyor",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "Conveyor",
+        "__guid": "085ff494-17d6-4ebe-8a34-9c27fd1130e4",
+        "__enabled": true,
+        "Flags": 0,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Speed": 10000
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "086d60a3-3fb1-4f21-bd10-2dce09a18c7a",
+        "__enabled": true,
+        "Flags": 0,
+        "Center": "0.159733772,0.0128479004,0.605971336",
+        "ColliderFlags": 0,
+        "Elasticity": null,
+        "Friction": null,
+        "IsTrigger": false,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "RollingResistance": null,
+        "Scale": "24.5030327,24.9356956,1.70143318",
+        "Static": false,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0"
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "a68c4eba-f44c-413c-8afb-785b685a8a7e",
+        "__version": 2,
+        "Flags": 0,
+        "Name": "Belt",
+        "Position": "0.387023926,0,0",
+        "Rotation": "0,0,0,1",
+        "Scale": "0.5,0.5,0.0500000007",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkFlags": 0,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "f6b54aa4-1b16-465e-a721-a9bd85d8b4bb",
+            "__enabled": true,
+            "Flags": 0,
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "LodOverride": null,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Materials": null,
+            "Model": {
+              "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+              "Path": "models/dev/box.vmdl"
+            },
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "0.25581,0.25581,0.25581,1"
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "59711846-e201-4164-9855-c2392208b643",
+            "__version": 2,
+            "Flags": 0,
+            "Name": "Arrow",
+            "Position": "10.9582062,1.18157959,32.9988861",
+            "Rotation": "0,0,0.707106769,0.707106769",
+            "Scale": "0.820000172,0.320000589,-0.00999931432",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkFlags": 0,
+            "NetworkOrphaned": 0,
+            "NetworkTransmit": true,
+            "OwnerTransfer": 1,
+            "Components": [
+              {
+                "__type": "Sandbox.LineRenderer",
+                "__guid": "e51d9e0b-9e04-4f80-9e02-a4253e4516c0",
+                "__enabled": true,
+                "Flags": 0,
+                "Additive": false,
+                "AutoCalculateNormals": true,
+                "CastShadows": true,
+                "Color": {
+                  "blend": "Linear",
+                  "color": [
+                    {
+                      "t": 0.5,
+                      "c": "1,1,1,1"
+                    }
+                  ],
+                  "alpha": []
+                },
+                "CylinderSegments": 12,
+                "DepthFeather": 0,
+                "EndCap": "Rounded",
+                "Face": "Camera",
+                "FogStrength": 1,
+                "Lighting": false,
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Opaque": false,
+                "Points": [
+                  {
+                    "_type": "gameobject",
+                    "go": "488da457-0dac-464f-b60a-2affd9edbec1"
+                  },
+                  {
+                    "_type": "gameobject",
+                    "go": "5eff02be-f2f0-4eb9-8bd1-0137e47f0b7a"
+                  },
+                  {
+                    "_type": "gameobject",
+                    "go": "fd77d36d-71c9-467f-bc8a-99098f9d40ea"
+                  },
+                  {
+                    "_type": "gameobject",
+                    "go": "4b99f172-1e98-42b6-bc6c-a86d5627c20e"
+                  }
+                ],
+                "RenderOptions": {
+                  "GameLayer": true,
+                  "OverlayLayer": false,
+                  "BloomLayer": false,
+                  "AfterUILayer": false
+                },
+                "SplineBias": 0,
+                "SplineContinuity": 0,
+                "SplineInterpolation": 8,
+                "SplineTension": 0,
+                "StartCap": "Rounded",
+                "Texturing": {
+                  "Texture": null,
+                  "Material": null,
+                  "WorldSpace": true,
+                  "UnitsPerTexture": 10,
+                  "Scale": 1,
+                  "Offset": 0,
+                  "Scroll": 0,
+                  "FilterMode": "Anisotropic",
+                  "TextureAddressMode": "Wrap",
+                  "Clamp": false
+                },
+                "UseVectorPoints": false,
+                "VectorPoints": [],
+                "Width": [
+                  {
+                    "x": 0,
+                    "y": 1,
+                    "in": 0,
+                    "out": 0,
+                    "mode": "Mirrored"
+                  }
+                ],
+                "Wireframe": false
+              }
+            ],
+            "Children": [
+              {
+                "__guid": "488da457-0dac-464f-b60a-2affd9edbec1",
+                "__version": 2,
+                "Flags": 0,
+                "Name": "Point 1",
+                "Position": "0,0,0",
+                "Rotation": "0,0,0,1",
+                "Scale": "1,1,1",
+                "Tags": "",
+                "Enabled": true,
+                "NetworkMode": 2,
+                "NetworkFlags": 0,
+                "NetworkOrphaned": 0,
+                "NetworkTransmit": true,
+                "OwnerTransfer": 1,
+                "Components": [],
+                "Children": []
+              },
+              {
+                "__guid": "5eff02be-f2f0-4eb9-8bd1-0137e47f0b7a",
+                "__version": 2,
+                "Flags": 0,
+                "Name": "Point 2",
+                "Position": "-16,56,0",
+                "Rotation": "0,0,0,1",
+                "Scale": "1,1,1",
+                "Tags": "",
+                "Enabled": true,
+                "NetworkMode": 2,
+                "NetworkFlags": 0,
+                "NetworkOrphaned": 0,
+                "NetworkTransmit": true,
+                "OwnerTransfer": 1,
+                "Components": [],
+                "Children": []
+              },
+              {
+                "__guid": "fd77d36d-71c9-467f-bc8a-99098f9d40ea",
+                "__version": 2,
+                "Flags": 0,
+                "Name": "Point 3",
+                "Position": "16,56,48",
+                "Rotation": "0,0,0,1",
+                "Scale": "1,1,1",
+                "Tags": "",
+                "Enabled": true,
+                "NetworkMode": 2,
+                "NetworkFlags": 0,
+                "NetworkOrphaned": 0,
+                "NetworkTransmit": true,
+                "OwnerTransfer": 1,
+                "Components": [],
+                "Children": []
+              },
+              {
+                "__guid": "4b99f172-1e98-42b6-bc6c-a86d5627c20e",
+                "__version": 2,
+                "Flags": 0,
+                "Name": "Point 4",
+                "Position": "0,0,48",
+                "Rotation": "0,0,0,1",
+                "Scale": "1,1,1",
+                "Tags": "",
+                "Enabled": true,
+                "NetworkMode": 2,
+                "NetworkFlags": 0,
+                "NetworkOrphaned": 0,
+                "NetworkTransmit": true,
+                "OwnerTransfer": 1,
+                "Components": [],
+                "Children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}
