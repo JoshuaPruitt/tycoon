@@ -26,12 +26,7 @@
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
-        "Wallet": {
-          "_type": "component",
-          "component_id": "7b665990-ca20-459e-b6de-1151ae2ae617",
-          "go": "fde76e17-1db9-4ccc-a193-897fddbc6239",
-          "component_type": "Wallet"
-        }
+        "Wallet": null
       },
       {
         "__type": "Sandbox.BoxCollider",
@@ -105,12 +100,34 @@
               "AfterUILayer": false
             },
             "RenderType": "On",
-            "Tint": "1,1,1,1"
+            "Tint": "0.96566,0.9907,0.23961,1"
           }
         ],
         "Children": []
       }
-    ]
+    ],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "PhysicsMode": "Physics3D",
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": false,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": "",
+        "DeferGeneration": false,
+        "CustomBounds": false
+      }
+    },
+    "__variables": []
   },
   "ResourceVersion": 2,
   "ShowInMenu": false,

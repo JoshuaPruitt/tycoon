@@ -3,7 +3,7 @@
     "__guid": "c96c9433-4f1c-4e0c-98d8-d68f05b4c2c9",
     "__version": 2,
     "Flags": 0,
-    "Name": "Block (1)",
+    "Name": "Block",
     "Position": "0,0,0",
     "Rotation": "0,0,0,1",
     "Scale": "1,1,1",
@@ -16,11 +16,37 @@
     "OwnerTransfer": 1,
     "Components": [
       {
+        "__type": "BlockValue",
+        "__guid": "a92df3ee-b975-8cc5-b47d-c7e144ddfeb9",
+        "__enabled": true,
+        "Flags": 0,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Value": 50
+      },
+      {
+        "__type": "BlockLifetime",
+        "__guid": "0fd29111-752e-8d64-b6b7-9b90f0541e64",
+        "__enabled": true,
+        "Flags": 0,
+        "Lifetime": 30,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null
+      },
+      {
         "__type": "Sandbox.BoxCollider",
         "__guid": "78a71145-f57f-4f43-8cf9-c2e80cd4dffb",
         "__enabled": true,
         "Flags": 0,
-        "Center": "0,0,0",
+        "Center": "0.0456433296,0.19701457,-0.0510578156",
         "ColliderFlags": 0,
         "Elasticity": null,
         "Friction": null,
@@ -36,7 +62,7 @@
         "OnTriggerEnter": null,
         "OnTriggerExit": null,
         "RollingResistance": null,
-        "Scale": "10,10,10",
+        "Scale": "7.4828186,7.95375252,7.47767925",
         "Static": false,
         "Surface": null,
         "SurfaceVelocity": "0,0,0"
@@ -124,19 +150,6 @@
             },
             "RenderType": "On",
             "Tint": "1,0.2186,0.2186,1"
-          },
-          {
-            "__type": "BlockValue",
-            "__guid": "620a5b3d-1109-8943-9617-f24ac28a9280",
-            "__enabled": true,
-            "Flags": 0,
-            "OnComponentDestroy": null,
-            "OnComponentDisabled": null,
-            "OnComponentEnabled": null,
-            "OnComponentFixedUpdate": null,
-            "OnComponentStart": null,
-            "OnComponentUpdate": null,
-            "Value": 50
           }
         ],
         "Children": []
