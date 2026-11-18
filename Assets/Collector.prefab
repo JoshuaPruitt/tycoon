@@ -53,6 +53,21 @@
         "Static": false,
         "Surface": null,
         "SurfaceVelocity": "0,0,0"
+      },
+      {
+        "__type": "Placeable",
+        "__guid": "0e4206e8-07f5-8b0e-820e-1b364b888dac",
+        "__enabled": true,
+        "Flags": 0,
+        "Cost": 10,
+        "DisplayName": "Collector",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "SizeInCells": 1
       }
     ],
     "Children": [

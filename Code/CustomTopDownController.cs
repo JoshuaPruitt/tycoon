@@ -1,3 +1,5 @@
+using Sandbox;
+
 public sealed class CustomTopDownController : Component
 {
 	[RequireComponent] PlayerController Controller { get; set; }
@@ -14,6 +16,7 @@ public sealed class CustomTopDownController : Component
 			var targetAngle = Controller.WishVelocity.EulerAngles;
 			Controller.EyeAngles = Rotation.Slerp( Controller.EyeAngles, targetAngle, Time.Delta * 10f );
 		}
+
 	}
 
 	protected override void OnPreRender()
